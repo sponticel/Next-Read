@@ -50,15 +50,18 @@ https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-ke
 
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+https://wireframe.cc/y2tomy
+
+Home Screen will be the home for the random genrator which when pressed will take you to the Book info page displaying the Book info. Home button will take you back to home page to generate a different book.
 
 #### MVP 
 
-- 3 random generator buttons  
-- Access Home button when displaying book info to go back to generators 
+- random generator button 
+- Access Home button when displaying book info to go back to generator
 - Allow user to give star review 
 
 #### PostMVP  
+- add 2 more button : by age group , by author
 - Add second API for list of reviews
 - save users book star review
 
@@ -82,8 +85,8 @@ Upload images of your wireframes to an image hosting site or add them to an asse
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Structure HTML Code | H | 3hrs| hrs | hrs |
-| Structure JavaScript| H | 3hrs| hrs | |
-| Set Up basic CSS file | H | 3hrs| hrs | |
+| Structure JavaScript| H | 3hrs| hrs | hrs |
+| Set Up basic CSS file | H | 3hrs| hrs | hrs |
 | work on 3 buttons Title, Genre, Author | H | 3hrs| hrs | hrs |
 | Button random generator | H | 3hrs| hrs | hrs |
 | Display book information | H | 3hrs| hrs | hrs |
@@ -92,8 +95,8 @@ Upload images of your wireframes to an image hosting site or add them to an asse
 | User Star Rating  | H | 3hrs| hrs | hrs |
 | Improve look of buttons | H | 3hrs| hrs | hrs |
 | Search for perfect App background| H | 3hrs| hrs | hrs |
-| Improve layout Responsive Design | H | 3hrs| 2.5hrs | |
-| Play and test out app | H | 3hrs| 2.5hrs | |
+| Improve layout Responsive Design | H | 3hrs| hrs | hrs|
+| Play and test out app | H | 3hrs| hrs | hrs |
 | Total | H | 40hrs| hrs | hrs |
 
 ## Code Snippet
