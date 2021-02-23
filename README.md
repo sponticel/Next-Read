@@ -87,7 +87,7 @@ Home Screen will be the home for the random genrator which when pressed will tak
 | Structure HTML Code | H | 3hrs| hrs | hrs |
 | Structure JavaScript| H | 3hrs| hrs | hrs |
 | Set Up basic CSS file | H | 3hrs| hrs | hrs |
-| work on 3 buttons Title, Genre, Author | H | 3hrs| hrs | hrs |
+| work on 1 (possibly 3 buttons Title, Genre, Author) | H | 3hrs| hrs | hrs |
 | Button random generator | H | 3hrs| hrs | hrs |
 | Display book information | H | 3hrs| hrs | hrs |
 | Work on book cover display | H | 3hrs| hrs | hrs |
