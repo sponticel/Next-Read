@@ -69,8 +69,8 @@ Home Screen will be the home for the random genrator which when pressed will tak
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Feb 22-23| Project Propsal planning, research possible features | Incomplete
-|Feb 23| possible features can be used with APIs & Project Approval | Incomplete
+|Feb 22-23| Project Propsal planning, research possible features | Complete
+|Feb 23| possible features can be used with APIs & Project Approval | Complete
 |Feb 23 -24| Set up initial structure for HTML JS and CSS , Psuedocode | Incomplete
 |Feb 24| Complete HTML and JavaScript code/ Functionality focus | Incomplete
 |Feb 25| CSS work on initial home page(random generator look | Incomplete
