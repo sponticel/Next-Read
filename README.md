@@ -87,27 +87,21 @@ https://lucid.app/lucidchart/invitations/accept/b359d850-833e-4e09-8578-a2c406b7
 | Structure HTML Code | H | 3hrs| hrs | hrs |
 | Structure JavaScript| H | 3hrs| hrs | hrs |
 | Set Up basic CSS file | H | 3hrs| hrs | hrs |
-| work on 1 (possibly 3 buttons Title, Genre, Author) | H | 3hrs| hrs | hrs |
-| Button random generator | H | 3hrs| hrs | hrs |
+| work on displaying 1 button | H | 3hrs| hrs | hrs |
+| random book functionality | H | 3hrs| hrs | hrs |
 | Display book information | H | 3hrs| hrs | hrs |
 | Work on book cover display | H | 3hrs| hrs | hrs |
 | Home button | H | 3hrs|  hrs | hrs |
-| User Star Rating  | H | 3hrs| hrs | hrs |
+| User Star Rating functionality | H | 3hrs| hrs | hrs |
 | Improve look of buttons | H | 3hrs| hrs | hrs |
 | Search for perfect App background| H | 3hrs| hrs | hrs |
 | Improve layout Responsive Design | H | 3hrs| hrs | hrs|
 | Play and test out app | H | 3hrs| hrs | hrs |
-| Total | H | 40hrs| hrs | hrs |
+| Total | H | 39 hrs| hrs | hrs |
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
-```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+ This section documents what changes were made to the app and the reasoning behind those changes.  
