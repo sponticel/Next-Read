@@ -80,6 +80,8 @@ Home Screen will be the home for the random genrator which when pressed will tak
 ## Priority Matrix
 https://lucid.app/lucidchart/invitations/accept/b359d850-833e-4e09-8578-a2c406b7cc79
 
+<img src="./priority-matrix.png" alt="priority-matrix"/>
+
 ## Timeframes
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
