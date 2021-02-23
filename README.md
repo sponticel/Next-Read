@@ -90,13 +90,13 @@ https://lucid.app/lucidchart/invitations/accept/b359d850-833e-4e09-8578-a2c406b7
 | Work on displaying 1 button | H | 3hrs| hrs | hrs |
 | Random book functionality | H | 3hrs| hrs | hrs |
 | Display book information | H | 3hrs| hrs | hrs |
-| Work on book cover display | H | 3hrs| hrs | hrs |
+| Work on book cover display | L | 3hrs| hrs | hrs |
 | Home button & navigation to home screen | H | 3hrs|  hrs | hrs |
-| User Star Rating functionality | H | 3hrs| hrs | hrs |
-| Improve look of buttons | H | 3hrs| hrs | hrs |
-| Search for perfect App background| H | 3hrs| hrs | hrs |
-| Improve layout Responsive Design | H | 3hrs| hrs | hrs|
-| Play and test out app | H | 3hrs| hrs | hrs |
+| User Star Rating functionality | M | 3hrs| hrs | hrs |
+| Improve look of buttons | L | 3hrs| hrs | hrs |
+| Search for perfect App background| L | 3hrs| hrs | hrs |
+| Improve layout Responsive Design | M | 3hrs| hrs | hrs|
+| Play and test out app | L | 3hrs| hrs | hrs |
 | Total | H | 39 hrs| hrs | hrs |
 
 ## Code Snippet
