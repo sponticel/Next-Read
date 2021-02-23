@@ -56,8 +56,8 @@ Home Screen will be the home for the random genrator which when pressed will tak
 
 #### MVP 
 
-- random generator button 
-- Access Home button when displaying book info to go back to generator
+- Random book button functionality
+- Acces home screen from book info page via home button
 - Allow user to give star review 
 
 #### PostMVP  
