@@ -8,25 +8,45 @@ async function bookInfo() {
   let chosenBook = `${BASE_URL}`
   try {
     let response = await axios.get(chosenBook)
-    console.log(response.data.results.books[0].title)
-    // console.log(response.results.books[i].title)
-    for (let i = 0; i < response.data.results.book.title.length; i++) {
-      bookData(response.results.book[i])
+
+    for (let i = 0; i < response.results.books.length; i++) {
+      bookData(response.results.books[i])
     }
     return response
   } catch (err) {
     console.error(err)
   }
 }
-// bookInfo()
 
+// button created
 let button = document.querySelector(".book-info")
-// console.log(button)
-
 button.addEventListener('click', () => {
   bookInfo()
 
 } ) 
+// Show all book info
 
+function allBookData(results) {
+  let dataContainer = document.querySelector('#book')
+  console.log(results);
+  let bookStuff = `
+  <div class ="newDiv">
+  <h2 id="title">${results.books[i].title}
+  <h2 id="author">${results.books[i].author}
+  <h3 id="description">${results.books[i].description}
+  <img src="${results.books[i].book_image}" id="cover"/>
+  </div>
+  `
+  dataContainer.insertAdjacentElement('beforeend', bookStuff )
+}
+allBookData()
+// randomize book selection
+// Source used: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 
-// randomize
+function shuffledBooks(books) {
+  for (let i = results.books.length - 1; i > 0; i--){
+    const j = Math.floor(Math.random() * (i + 1))
+    [results.books[i], results.books[j]] = [results.books[j], results.books[i]]
+  }
+  console.log(shuffledBooks)
+}
