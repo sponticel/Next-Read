@@ -34,9 +34,9 @@ function allBookData(results) {
   const book = results[randNum]
     let bookStuff = `
     <div class ="newDiv">
-    <h2 id="title">${book.title}
-    <h2 id="author">${book.author}
-    <h3 id="description">${book.description}
+    <h2 id="title">Title: ${book.title}
+    <h2 id="author">Author: ${book.author}
+    <h3 id="description">Description: ${book.description}
     <img src="${book.book_image}" id="cover"/>
     </div>
     `
@@ -45,7 +45,7 @@ function allBookData(results) {
 
 }
 
-allBookData()
+allBookData(results)
 
 function removeBook() {
   let lessBooks = document.querySelector('#book')
