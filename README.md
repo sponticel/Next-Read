@@ -72,9 +72,9 @@ Home Screen will be the home for the random genrator which when pressed will tak
 |Feb 22-23| Project Propsal planning, research possible features | Complete
 |Feb 23| possible features can be used with APIs & Project Approval | Complete
 |Feb 23 -24| Set up initial structure for HTML JS and CSS , Psuedocode | Complete
-|Feb 24| Complete HTML and JavaScript code/ Functionality focus | Incomplete
-|Feb 25| CSS work on initial home page(random generator look | Complete
-|Feb 26| CSS work on 2nd page display book info and user rating | Incomplete
+|Feb 24| Complete HTML and JavaScript code/ Functionality focus | Complete
+|Feb 24| CSS work on initial home page(random generator look and user rating| Complete
+|Feb 25| CSS work on responsive design | Incomplete
 |March 1| Presentations | Incomplete
 
 ## Priority Matrix
