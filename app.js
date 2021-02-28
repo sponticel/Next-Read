@@ -42,13 +42,13 @@ function allBookData(results) {
     `
     dataContainer.insertAdjacentHTML('beforeend', bookStuff )
   
-
+    
 }
 
 allBookData(results)
 
 function removeBook() {
-  let lessBooks = document.querySelector('#book')
+  // let lessBooks = document.querySelector('#book')
   while (lessBooks.lastChild) {
     lessBooks.removeChild(lessBooks.lastChild)
   }
