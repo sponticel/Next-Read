@@ -7,6 +7,7 @@ async function bookInfo() {
   
   let chosenBook = `${BASE_URL}`
   try {
+    removeBook()
     let response = await axios.get(chosenBook)
     const books = response.data.results.books
     allBookData(books)
@@ -48,9 +49,9 @@ function allBookData(results) {
 allBookData(results)
 
 function removeBook() {
-  // let lessBooks = document.querySelector('#book')
+  let lessBooks = document.querySelector('#book')
   while (lessBooks.lastChild) {
     lessBooks.removeChild(lessBooks.lastChild)
   }
 }
-removeBook()
+// removeBook()

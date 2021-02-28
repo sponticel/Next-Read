@@ -3,6 +3,7 @@
 * {
   font-family: 'Akaya Telivigala', cursive;
   text-align: center;
+  text-shadow: black 0px 1px 2px;
 }
 
 body
@@ -10,6 +11,9 @@ body
   margin: 0;
   padding: 0;
   background : #262626;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://i.imgur.com/P4ZxsyJh.jpg");
 
 }
 
