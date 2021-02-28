@@ -38,6 +38,7 @@ function allBookData(results) {
     <h2 id="title">Title: ${book.title}
     <h2 id="author">Author: ${book.author}
     <h3 id="description">Description: ${book.description}
+    <h2> </h2>
     <img src="${book.book_image}" id="cover"/>
     </div>
     `
