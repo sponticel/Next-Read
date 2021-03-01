@@ -1,47 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css" type="text/css" title="no title" charset="utf-8">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-  <script defer src="app.js"  charset="utf-8"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  <title>NextRead</title>
-</head>
-<header>
-  <h1>Welcome to your NEXTREAD!</h1>
-</header>
-<body>
-  <div>
-  <a href='#book' class="book-info"> 
-    <button>'Get Your Book!'</button>
-  </a>
-
-  </div>
-
-  <main id="book">
-  <h2>Your next read is ...</h2>
-  </main>
-  <!-- Source used: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio -->
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css" title="no title" charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="app.js"  charset="utf-8"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>NextRead</title>
+  </head>
+  <header>
+    <h1>Welcome to your NEXTREAD!</h1>
+  </header>
+  <body>
+    <div>
+      <a href='#book' class="book-info"> 
+        <button>'Get Your Book!'</button>
+      </a>
+    </div>
+  
+    <main id="book">
+      <h2>Your next read is ...</h2>
+    </main>
+  
+<!-- Source used: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio -->
   <div class="rating">
-    <input type="radio" name="star" id="star1"><label for="star1"></label>
-    <input type="radio" name="star" id="star2"><label for="star2"></label>
-    <input type="radio" name="star" id="star3"><label for="star3"></label>
-    <input type="radio" name="star" id="star4"><label for="star4"></label>
-    <input type="radio" name="star" id="star5"><label for="star5"></label>
+    <input type="radio" name="star" id="star1" class="star"><label for="star1"></label>
+    <input type="radio" name="star" id="star2" class="star"><label for="star2"></label>
+    <input type="radio" name="star" id="star3" class="star"><label for="star3"></label>
+    <input type="radio" name="star" id="star4" class="star"><label for="star4"></label>
+    <input type="radio" name="star" id="star5" class="star"><label for="star5"></label>
   </div>
 
-  <section>
-    <button onClick="window.location.reload();">Refresh Page</button>
-  </section>
+  <!-- <section>
+    <button onClick="window.location.reload();" class="refresh-stars">Refresh Page</button>
+  </section> -->
 
-
-
-</body>
-<footer> &#169 Sandy Ponticel </footer>
+  </body>
+  <footer> &#169 Sandy Ponticel </footer>
 </html>
 

@@ -57,8 +57,8 @@ Home Screen will be the home for the random genrator which when pressed will tak
 #### MVP 
 
 - Random book button functionality
-- Access home screen from book info page via home button
 - Allow user to give star review 
+- Reset stars when "Get Your Book" button is clicked
 
 #### PostMVP  
 - add 2 more button : by age group , by author
@@ -93,16 +93,17 @@ https://lucid.app/lucidchart/invitations/accept/b359d850-833e-4e09-8578-a2c406b7
 | Random book functionality | H | 3hrs| 8hrs | 8hrs |
 | Display book information | H | 3hrs| 5hrs | 5hrs |
 | Work on book cover display | L | 3hrs| 3hrs | 3hrs |
-| Reset button for clean slait | H | 3hrs|  1.5hrs | 1.5hrs |
+| Refresh stars functionality | H | 3hrs|  1hrs | 1hrs |
 | User Star Rating functionality | M | 3hrs| 8hrs | 8hrs |
 | Improve look of buttons | L | 3hrs| 3hrs | 3hrs |
 | Search for perfect App background| L | 3hrs| 2hrs | 2hrs |
 | Improve layout Responsive Design | M | 3hrs| 5hrs | 5hrs|
 | Play and test out app | L | 3hrs| 2hrs | 2hrs |
-| Total | H | 39 hrs| 44hrs | 44hrs |
+| Total | H | 39 hrs| 43.5hrs | 43.5hrs |
 
 ## Code Snippet
-
+Inspired by: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio 
+```css
 rating{
   position: absolute;
   left: 50%;
@@ -137,7 +138,7 @@ display: none;
   transition: .5s;
   text-shadow:0 2px 5px rgba(0,0,0,.5);
  }
-
+```
 
 ## Change Log
- Original idea was for the app to consist of 2 html pages. Due to the 2 pages were unable to communicate without the use of react, everything was kept on one page. This made the use of the "Home" button unecessary, thus a refresh button was made to make up for it. 
+ Original idea was for the app to consist of 2 html pages. Due to the 2 pages were unable to communicate without the use of react, everything was kept on one page. This made the use of the "Home" button unecessary.

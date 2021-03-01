@@ -18,16 +18,22 @@ async function bookInfo() {
 }
 
 // button created
-
 let button = document.querySelector(".book-info")
-button.addEventListener('click', () => {
+  button.addEventListener('click', () => {
   bookInfo()
+  refreshStars() 
+   
   document.location += '#book'; return false;
-
 }) 
 
-// Show all book info
+function refreshStars() {
+  let stars = document.querySelectorAll(".star")
+  stars.forEach((star) => {
+      star.checked = false
+    })
+}
 
+// Show all book info
 function allBookData(results) {
   let dataContainer = document.querySelector('#book')
   console.log(results);
@@ -42,17 +48,15 @@ function allBookData(results) {
     <img src="${book.book_image}" id="cover"/>
     </div>
     `
-    dataContainer.insertAdjacentHTML('beforeend', bookStuff )
-  
-    
+    dataContainer.insertAdjacentHTML('beforeend', bookStuff)  
 }
 
-allBookData(results)
 
+// removes last book
 function removeBook() {
   let lessBooks = document.querySelector('#book')
-  while (lessBooks.lastChild) {
+    while (lessBooks.lastChild) {
     lessBooks.removeChild(lessBooks.lastChild)
   }
 }
-// removeBook()
+

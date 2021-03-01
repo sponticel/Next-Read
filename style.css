@@ -5,12 +5,13 @@
   text-align: center;
   text-shadow: black 0px 1px 10px;
 }
+
 html {
   position: relative;
   min-height: 100%;
 }
-body
-{
+
+body {
   margin: 0 0 100px;
   padding: 0;
   background : #262626;
@@ -20,8 +21,9 @@ body
   color: yellow;
   font-size: 18px;
 }
+
 /* Source used: https://www.w3schools.com/css/css3_buttons.asp */
-button{
+button {
   background-color: #1f9cff;
   width: 20%;
   border: 2px solid #4CAF50;
@@ -38,22 +40,23 @@ button:hover {
   background-color: red;
   color:yellow;
 }
+
 /* Source used: https://stackoverflow.com/questions/44960386/star-rating-using-font-awesome-doesnt-work-properly-on-edge-and-ie */
-.rating{
+.rating {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%) rotateY(180deg);
   display: flex;
 }
-.rating input{
+.rating input {
 display: none;
 }
-.rating label{
+.rating label {
   display: block;
   cursor:pointer;
   width:45px;
 }
-.rating label:before{
+.rating label:before {
  content: '\f005';
  font-family: fontAwesome;
  position: relative;
@@ -61,7 +64,7 @@ display: none;
  font-size: 45px;
  color: #101010;
 }
-.rating label:after{
+.rating label:after {
   content: '\f005';
   font-family: fontAwesome;
   position: absolute;
@@ -79,16 +82,18 @@ display: none;
    opacity: 1;
  }
 
- #cover{
+ #cover {
    width: 40%;
    height: 40%;
  }
-section{
+
+section {
   position:absolute;
   bottom: 33px;
   width:100%;
 }
- footer{
+
+ footer {
    position: absolute;
    bottom: 0;
    width:100%;
@@ -97,15 +102,16 @@ section{
    background-color: red;
  }
 
- main{
+ main {
    position: relative; 
    padding: 0px 0px 50px 0px;
  } 
- @media all and (min-width: 375px){
+ 
+ @media all and (max-width: 375px){
     button{
     padding: 12px 28px;
-    font-size: 12px;
-    width: 40%;
+    font-size: 14px;
+    width: 90%;
     }
     #description{
       padding-top: 50px;
