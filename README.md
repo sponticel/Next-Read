@@ -57,7 +57,7 @@ Home Screen will be the home for the random genrator which when pressed will tak
 #### MVP 
 
 - Random book button functionality
-- Acces home screen from book info page via home button
+- Access home screen from book info page via home button
 - Allow user to give star review 
 
 #### PostMVP  
@@ -74,7 +74,7 @@ Home Screen will be the home for the random genrator which when pressed will tak
 |Feb 23 -24| Set up initial structure for HTML JS and CSS , Psuedocode | Complete
 |Feb 24| Complete HTML and JavaScript code/ Functionality focus | Complete
 |Feb 24| CSS work on initial home page(random generator look and user rating| Complete
-|Feb 25| CSS work on responsive design | Incomplete
+|Feb 25| CSS work on responsive design | Complete
 |March 1| Presentations | Incomplete
 
 ## Priority Matrix
@@ -86,24 +86,58 @@ https://lucid.app/lucidchart/invitations/accept/b359d850-833e-4e09-8578-a2c406b7
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Structure HTML Code | H | 3hrs| hrs | hrs |
-| Structure JavaScript| H | 3hrs| hrs | hrs |
-| Set Up basic CSS file | H | 3hrs| hrs | hrs |
-| Work on displaying 1 button | H | 3hrs| hrs | hrs |
-| Random book functionality | H | 3hrs| hrs | hrs |
-| Display book information | H | 3hrs| hrs | hrs |
-| Work on book cover display | L | 3hrs| hrs | hrs |
-| Home button & navigation to home screen | H | 3hrs|  hrs | hrs |
-| User Star Rating functionality | M | 3hrs| hrs | hrs |
-| Improve look of buttons | L | 3hrs| hrs | hrs |
-| Search for perfect App background| L | 3hrs| hrs | hrs |
-| Improve layout Responsive Design | M | 3hrs| hrs | hrs|
-| Play and test out app | L | 3hrs| hrs | hrs |
-| Total | H | 39 hrs| hrs | hrs |
+| Structure HTML Code | H | 3hrs| 2hrs | 2hrs |
+| Structure JavaScript| H | 3hrs| 2hrs | 2hrs |
+| Set Up basic CSS file | H | 3hrs| 0.5hrs | 0.5hrs |
+| Work on displaying 1 button | H | 3hrs| 2hrs | 2hrs |
+| Random book functionality | H | 3hrs| 8hrs | 8hrs |
+| Display book information | H | 3hrs| 5hrs | 5hrs |
+| Work on book cover display | L | 3hrs| 3hrs | 3hrs |
+| Reset button for clean slait | H | 3hrs|  1.5hrs | 1.5hrs |
+| User Star Rating functionality | M | 3hrs| 8hrs | 8hrs |
+| Improve look of buttons | L | 3hrs| 3hrs | 3hrs |
+| Search for perfect App background| L | 3hrs| 2hrs | 2hrs |
+| Improve layout Responsive Design | M | 3hrs| 5hrs | 5hrs|
+| Play and test out app | L | 3hrs| 2hrs | 2hrs |
+| Total | H | 39 hrs| 44hrs | 44hrs |
 
 ## Code Snippet
 
+rating{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%) rotateY(180deg);
+  display: flex;
+}
+.rating input{
+display: none;
+}
+.rating label{
+  display: block;
+  cursor:pointer;
+  width:45px;
+}
+.rating label:before{
+ content: '\f005';
+ font-family: fontAwesome;
+ position: relative;
+ display: block;
+ font-size: 45px;
+ color: #101010;
+}
+.rating label:after{
+  content: '\f005';
+  font-family: fontAwesome;
+  position: absolute;
+  display: block;
+  font-size: 45px;
+  color: #1f9cff;
+  top: 0;
+  opacity: 0;
+  transition: .5s;
+  text-shadow:0 2px 5px rgba(0,0,0,.5);
+ }
 
 
 ## Change Log
- This section documents what changes were made to the app and the reasoning behind those changes.  
+ Original idea was for the app to consist of 2 html pages. Due to the 2 pages were unable to communicate without the use of react, everything was kept on one page. This made the use of the "Home" button unecessary, thus a refresh button was made to make up for it. 
