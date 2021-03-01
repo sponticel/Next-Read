@@ -2,7 +2,7 @@
 
 ## NextRead
 
-NEXTREAD
+https://sponticel.github.io/Next-Read/
 
 ## Project Description
 
